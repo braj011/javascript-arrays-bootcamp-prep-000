@@ -17,8 +17,6 @@ function addElementToEndOfArray(array, element) {
 }
 
 
-*/
-  
 
 // THIS ONE IS is FINE!
 function destructivelyAddElementToEndOfArray(array, element) {
