@@ -12,17 +12,14 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  
+  var new_array = array.push(element)
+  return new_array
 }
 
-/* SOLVE THIS ONE
-function addElementToEndOfArray(array, element) {
-  var new_array = [array, ...element]
-  return new_array
 
 */
   
-}
+
 // THIS ONE IS is FINE!
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
